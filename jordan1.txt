@@ -1,11 +1,8 @@
-jordan1
------> Super Cool Shoes for you
+Super Cool Shoes for you
 very Cool ----> Super SUper Jump
 Spec:
-
-
 Person B write something in here
-
-
 price $1000!!!
+aaa
+bbb
 
