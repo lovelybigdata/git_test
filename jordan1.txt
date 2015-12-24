@@ -11,6 +11,47 @@ Bests,
 Bing
 
 
+=======
+New222222
+2222222222222222
+2222222222222222222222222
+2222222222222
+
+===
+# this what i write
+
+ese (Traditional)_Taiwan.950;LC_CTYPE=Chinese (Traditional)_Taiwan.950;LC_MONETARY=Chinese (Traditional)_Taiwan.950;LC_NUMERIC=C;LC_TIME=Chinese (Traditional)_Taiwan.950"
+如果不是，請在命令列執行 Sys.setlocale(category = "LC_ALL", locale = "cht")
+Mac 使用者 Sys.setlocale(category = "LC_ALL", locale = "zh_TW.UTF-8")
+一勞永逸的做法就是自訂 .Rprofile 檔，請執行以下程式碼，會在 Mac 的 Home 目錄下新增一個 .Rprofile 檔，每次開啟 R-studio 時會自動執行 Sys.setlocale(category = "LC_ALL", locale = "zh_TW.UTF-8")
+cat('
+Sys.setlocale(category = "LC_ALL", locale = "zh_TW.UTF-8")
+', file = '~/.Rprofile', append = TRUE)
+Q：讀進來的data frame欄位名稱是中文，無法使用？ R Studio雖採自然語言處理，但有時並不完全支援中文欄位，請以names(data.frame名稱) <- c(“新欄位名稱1”,”新欄位名稱2”,.....) 將欄位名稱重新編寫成英文。
+
+Q：read.csv, windows 讀取中文檔案出問題，可嘗試改寫以下程式
+
+# Sol(1)
+f <- read.csv("中文檔.csv", fileEncoding = "big5")
+
+# Sol(2)
+f$var <- iconv(f$var, from = "utf8", to = "big5")
+三、繪圖
+
+Q：座標軸標籤出現方塊，無法正常顯示中文？
+
+Mac的預設字型serif沒有中文，請在呼叫繪圖函數前先以par(familiy=”STHeiti”)重新設定字型。
+另外要注意的是，Rmarkdown使用Post Script字形，有時即使以par重新設定還是無法正常顯示。
+
+
+
+===
+
+why not bBBB
+function BBBB
+bBBBBB
+BB
+>>>>>>> 10:11 AM ADD NEW
 
 
 ===
