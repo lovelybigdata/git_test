@@ -1,19 +1,24 @@
-why not bBBB
-function BBBB
-bBBBBB
-BB
+Hi All,
+
+We just make an end-to-end deep learning tutorial with lb score 0.0392:
+
+https://github.com/dmlc/mxnet/tree/master/example/kaggle-ndsb2
+
+Notice this is a very simple model with no attempt to optimize the structure or hyper parameters, you can build fantastic network based on it. While this tutorial is written in python, MXNet comes with support for other popular languages such as R and Julia which can also be used. You are more than welcomed to try and contribute back to this example.
+
+Bests,
+
+Bing
+
+
 
 
 ===
 =======
 functionAAAAAA
-AAAA
-==
-New function!!!!!
 rketing !!!!!!!!
 
 =======
------
 Person B write something in here
 price $1000!!!
 aa
@@ -27,4 +32,3 @@ B write 2222222
 2222222222
 222222222
 222
-
